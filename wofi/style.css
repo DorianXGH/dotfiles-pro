@@ -1,0 +1,38 @@
+#window {
+    font-family: "ChollaSansRegular Nerd Font";
+    font-size: 16;
+    font-weight: 700;
+    background-color: #c81750;
+    color: #ffffff;
+}
+
+#entry {
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#input {
+    background-color: #c81750;
+    color: #ffffff;
+    border-radius: 0;
+    border-style: none;
+}
+#input:focus {
+    color: #c81750;
+    background-color: #ffffff;
+    border-radius: 0;
+    border-style: none;
+}
+#input::placeholder {
+    color: #ffffff;
+}
+
+#entry:selected {
+    background-color: #ffffff;
+    color: #c81750;
+}
+
+#selected label {
+    color: #c81750;
+}
