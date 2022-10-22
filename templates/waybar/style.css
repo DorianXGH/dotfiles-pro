@@ -54,28 +54,28 @@ window#waybar.PCSX2 #window {
 	margin-left: 12px;
 	margin-bottom: 0;
 	border-radius: 26px;
-	background: #000000;
+	background: {{ colors.dark }};
 	transition: none;
 }
 
 #workspaces button {
 	transition: none;
-	color: #b2b2b2;
+	color: {{ colors.accent2 }};
 	background: transparent;
 	font-size: 16px;
 }
 
 #workspaces button.focused {
-	background: #ffffff;
+	background: {{ colors.bright }};
 	border-radius: 26px;
-	color: #c81750;
+	color: {{ colors.accent }};
 }
 
 #workspaces button:hover {
 	transition: none;
 	box-shadow: inherit;
 	text-shadow: inherit;
-	color: #c81750;
+	color: {{ colors.accent }};
 }
 
 #mode {
@@ -86,8 +86,8 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: {{ colors.accent }};
+	background: {{ colors.bright }};
 }
 
 #network {
@@ -98,8 +98,8 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: {{ colors.accent }};
+	background: {{ colors.bright }};
 }
 
 
@@ -111,8 +111,8 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: {{ colors.accent }};
+	background: {{ colors.bright }};
 }
 
 #cpu {
@@ -123,8 +123,8 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: {{ colors.accent }};
+	background: {{ colors.bright }};
 }
 
 #memory {
@@ -135,8 +135,8 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: {{ colors.accent }};
+	background: {{ colors.bright }};
 }
 
 #clock {
@@ -148,8 +148,8 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: {{ colors.accent }};
+	background: {{ colors.bright }};
 }
 
 #battery {
@@ -160,8 +160,8 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: {{ colors.accent }};
+	background: {{ colors.bright }};
 }
 
 #taskbar {
@@ -172,12 +172,12 @@ window#waybar.PCSX2 #window {
 	padding-bottom: 0px;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: {{ colors.accent }};
+	background: {{ colors.bright }};
 }
 
 #taskbar button:hover {
-	border-bottom: #c81750 solid 2px;
+	border-bottom: {{ colors.accent }} solid 2px;
 	padding-bottom: 2px;
 }
 
@@ -190,6 +190,6 @@ window#waybar.PCSX2 #window {
 	padding-bottom: 0px;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: {{ colors.accent }};
+	background: {{ colors.bright }};
 }

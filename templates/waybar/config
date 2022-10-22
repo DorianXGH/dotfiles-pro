@@ -1,0 +1,47 @@
+{
+	"layer": "top",
+	"modules-left": ["sway/workspaces", "sway/mode"],
+	"modules-center": ["wlr/taskbar"],
+	"modules-right": ["network", "cpu", "memory", "battery", "clock","custom/powermgr"],
+
+	"network": {
+		"tooltip": false,
+		"format-wifi": " {essid} {ipaddr}",
+		"format-ethernet": " {ipaddr}"
+	},
+	"cpu": {
+		"tooltip": false,
+		"format": " {}%"
+	},
+	"memory": {
+		"tooltip": false,
+		"format": " {}%"
+	},
+	"clock": {
+		"format": " {:%H:%M}",
+		"format-alt": "  {:%Y-%m-%d}"
+	},
+	"battery": {
+		"format": "{icon}  {capacity}%",
+		"format-icons": ["","","","",""]
+	},
+	"wlr/taskbar": {
+		"format": "{icon}",
+		"icon-size": 20,
+		"icon-theme": "Numix-Circle",
+		"tooltip-format": "{title}",
+		"on-click": "activate",
+		"on-click-middle": "close",
+		"ignore-list": [
+		   "Alacritty"
+		],
+		"app_ids-mapping": {
+		  "firefoxdeveloperedition": "firefox-developer-edition"
+		}
+	},
+	"custom/powermgr": {
+		"format": "",
+		"on-click": "/home/dorian/.config/waybar/power.lua",
+		"tooltip": false
+	}
+}

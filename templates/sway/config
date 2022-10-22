@@ -23,7 +23,7 @@ set $menu dmenu_path | wofi -d | xargs swaymsg exec --
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/dorian/Backgrounds/owl_redder.png fill
+output * bg {{ background }} fill
 #
 # Example configuration:
 #
@@ -64,10 +64,10 @@ input * {
 
 gaps inner 8
 default_border normal 2
-font ChollaSans 12
-client.focused #ffffff #ffffff #bf1238 #bf1238
-client.focused_inactive #ffffff #ffffff #000000 #bf1238
-client.unfocused #000000 #000000 #e6e6e6 #e6e6e6
+font {{ sway.font }} 12
+client.focused {{ colors.bright }} {{ colors.bright }} {{ colors.accent }} {{ colors.accent }}
+client.focused_inactive {{ colors.bright }} {{ colors.bright }} {{ colors.dark }} {{ colors.accent }}
+client.unfocused {{ colors.dark }} {{ colors.dark }} {{ colors.accent2 }} {{ colors.accent2 }}
 
 
 ### Key bindings
