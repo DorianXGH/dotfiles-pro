@@ -1,11 +1,16 @@
 background: "/home/dorian/Backgrounds/owl_redder.png"
 lock_background: "/home/dorian/Backgrounds/owl_redder.png"
 colors:
-  bright: "#da4637"
+  bright: "#f75e45"
   dark: "#000000"
   accent: "#8e242e"
   accent2: "#791e2f"
 term:
   font: "Comic Mono"
 sway:
+  font: "Raleway"
+bar:
+  font: "Raleway"
+  font_weight: 700
+menu:
   font: "Raleway"

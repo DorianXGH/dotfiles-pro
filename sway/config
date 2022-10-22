@@ -64,10 +64,10 @@ input * {
 
 gaps inner 8
 default_border normal 2
-font ChollaSans 12
-client.focused #ffffff #ffffff #bf1238 #bf1238
-client.focused_inactive #ffffff #ffffff #000000 #bf1238
-client.unfocused #000000 #000000 #e6e6e6 #e6e6e6
+font Raleway 12
+client.focused #f75e45 #f75e45 #8e242e #8e242e
+client.focused_inactive #f75e45 #f75e45 #000000 #8e242e
+client.unfocused #000000 #000000 #791e2f #791e2f
 
 
 ### Key bindings

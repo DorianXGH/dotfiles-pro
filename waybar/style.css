@@ -11,8 +11,8 @@
 * {
 	border: none;
 	border-radius: 0;
-	font-family: "ChollaSansRegular Nerd Font";
-	font-weight: 900;
+	font-family: Raleway;
+	font-weight: 700;
 	font-size: 16px;
 	min-height: 24px;
 }
@@ -60,22 +60,22 @@ window#waybar.PCSX2 #window {
 
 #workspaces button {
 	transition: none;
-	color: #b2b2b2;
+	color: #791e2f;
 	background: transparent;
 	font-size: 16px;
 }
 
 #workspaces button.focused {
-	background: #ffffff;
+	background: #f75e45;
 	border-radius: 26px;
-	color: #c81750;
+	color: #8e242e;
 }
 
 #workspaces button:hover {
 	transition: none;
 	box-shadow: inherit;
 	text-shadow: inherit;
-	color: #c81750;
+	color: #8e242e;
 }
 
 #mode {
@@ -86,8 +86,8 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: #8e242e;
+	background: #f75e45;
 }
 
 #network {
@@ -98,8 +98,8 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: #8e242e;
+	background: #f75e45;
 }
 
 
@@ -111,8 +111,8 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: #8e242e;
+	background: #f75e45;
 }
 
 #cpu {
@@ -123,8 +123,8 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: #8e242e;
+	background: #f75e45;
 }
 
 #memory {
@@ -135,8 +135,8 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: #8e242e;
+	background: #f75e45;
 }
 
 #clock {
@@ -148,8 +148,8 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: #8e242e;
+	background: #f75e45;
 }
 
 #battery {
@@ -160,8 +160,8 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: #8e242e;
+	background: #f75e45;
 }
 
 #taskbar {
@@ -172,12 +172,12 @@ window#waybar.PCSX2 #window {
 	padding-bottom: 0px;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: #8e242e;
+	background: #f75e45;
 }
 
 #taskbar button:hover {
-	border-bottom: #c81750 solid 2px;
+	border-bottom: #8e242e solid 2px;
 	padding-bottom: 2px;
 }
 
@@ -190,6 +190,6 @@ window#waybar.PCSX2 #window {
 	padding-bottom: 0px;
 	border-radius: 26px;
 	transition: none;
-	color: #c81750;
-	background: #ffffff;
+	color: #8e242e;
+	background: #f75e45;
 }

@@ -11,8 +11,8 @@
 * {
 	border: none;
 	border-radius: 0;
-	font-family: "ChollaSansRegular Nerd Font";
-	font-weight: 900;
+	font-family: {{ bar.font }};
+	font-weight: {{ bar.font_weight }};
 	font-size: 16px;
 	min-height: 24px;
 }

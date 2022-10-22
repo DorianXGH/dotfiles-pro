@@ -1,9 +1,9 @@
 #window {
-    font-family: "ChollaSansRegular Nerd Font";
+    font-family: Raleway;
     font-size: 16;
     font-weight: 700;
-    background-color: #c81750;
-    color: #ffffff;
+    background-color: #8e242e;
+    color: #f75e45;
 }
 
 #entry {
@@ -13,26 +13,26 @@
 }
 
 #input {
-    background-color: #c81750;
-    color: #ffffff;
+    background-color: #8e242e;
+    color: #f75e45;
     border-radius: 0;
     border-style: none;
 }
 #input:focus {
-    color: #c81750;
-    background-color: #ffffff;
+    color: #8e242e;
+    background-color: #f75e45;
     border-radius: 0;
     border-style: none;
 }
 #input::placeholder {
-    color: #ffffff;
+    color: #f75e45;
 }
 
 #entry:selected {
-    background-color: #ffffff;
-    color: #c81750;
+    background-color: #f75e45;
+    color: #8e242e;
 }
 
 #selected label {
-    color: #c81750;
+    color: #8e242e;
 }

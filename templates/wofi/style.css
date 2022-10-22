@@ -1,5 +1,5 @@
 #window {
-    font-family: "ChollaSansRegular Nerd Font";
+    font-family: {{ menu.font }};
     font-size: 16;
     font-weight: 700;
     background-color: {{ colors.accent }};
