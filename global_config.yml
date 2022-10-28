@@ -1,12 +1,35 @@
 background: "/home/dorian/Backgrounds/owl_redder.png"
-lock_background: "/home/dorian/Backgrounds/owl_redder.png"
+lock_background: "/home/dorian/Backgrounds/owl_redder_nighter.png"
 colors:
   bright: "#f75e45"
-  dark: "#000000"
+  dark: "#1c050d"
   accent: "#8e242e"
   accent2: "#791e2f"
 term:
-  font: "Comic Mono"
+  font: "Comic Shanns"
+  font_size: 14
+  colors:
+    background: "#1c050d"
+    foreground: "#f75e45"
+    normal:
+      black: "#1c050d"
+      white: "#f75e45"
+      red: "#8e242e"
+      yellow: "#f78845"
+      magenta: "#972f8b"
+      blue: "#2f2f96"
+      green: "#dff745"
+      cyan: "#00bdff"
+    bright:
+      black: "#54132e"
+      white: "#ff8b6c"
+      red: "#a52a2e"
+      yellow: "#ffae6c"
+      magenta: "#ed5abb"
+      blue: "#7d5aed"
+      green: "#edff77"
+      cyan: "#22d1ff"
+
 sway:
   font: "Raleway"
 bar:

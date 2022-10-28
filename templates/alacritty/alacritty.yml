@@ -158,7 +158,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  #size: 11.0
+  size: {{ term.font_size }}
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -185,11 +185,11 @@ font:
 #draw_bold_text_with_bright_colors: false
 
 # Colors (Tomorrow Night)
-#colors:
+colors:
   # Default colors
-  #primary:
-  #  background: '#1d1f21'
-  #  foreground: '#c5c8c6'
+  primary:
+    background: '{{ term.colors.background }}'
+    foreground: '{{ term.colors.foreground }}'
 
     # Bright and dim foreground colors
     #
@@ -281,26 +281,26 @@ font:
   #  background: CellForeground
 
   # Normal colors
-  #normal:
-  #  black:   '#1d1f21'
-  #  red:     '#cc6666'
-  #  green:   '#b5bd68'
-  #  yellow:  '#f0c674'
-  #  blue:    '#81a2be'
-  #  magenta: '#b294bb'
-  #  cyan:    '#8abeb7'
-  #  white:   '#c5c8c6'
+  normal:
+    black:   '{{ term.colors.normal.black }}'
+    red:     '{{ term.colors.normal.red }}'
+    green:   '{{ term.colors.normal.green }}'
+    yellow:  '{{ term.colors.normal.yellow }}'
+    blue:    '{{ term.colors.normal.blue }}'
+    magenta: '{{ term.colors.normal.magenta }}'
+    cyan:    '{{ term.colors.normal.cyan }}'
+    white:   '{{ term.colors.normal.white }}'
 
   # Bright colors
-  #bright:
-  #  black:   '#666666'
-  #  red:     '#d54e53'
-  #  green:   '#b9ca4a'
-  #  yellow:  '#e7c547'
-  #  blue:    '#7aa6da'
-  #  magenta: '#c397d8'
-  #  cyan:    '#70c0b1'
-  #  white:   '#eaeaea'
+  bright:
+    black:   '{{ term.colors.bright.black }}'
+    red:     '{{ term.colors.bright.red }}'
+    green:   '{{ term.colors.bright.green }}'
+    yellow:  '{{ term.colors.bright.yellow }}'
+    blue:    '{{ term.colors.bright.blue }}'
+    magenta: '{{ term.colors.bright.magenta }}'
+    cyan:    '{{ term.colors.bright.cyan }}'
+    white:   '{{ term.colors.bright.white }}'
 
   # Dim colors
   #

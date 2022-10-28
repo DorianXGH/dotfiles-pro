@@ -64,10 +64,10 @@ input * {
 
 gaps inner 8
 default_border normal 2
-font {{ sway.font }} 12
+font {{ sway.font }} Bold 12
 client.focused {{ colors.bright }} {{ colors.bright }} {{ colors.accent }} {{ colors.accent }}
 client.focused_inactive {{ colors.bright }} {{ colors.bright }} {{ colors.dark }} {{ colors.accent }}
-client.unfocused {{ colors.dark }} {{ colors.dark }} {{ colors.accent2 }} {{ colors.accent2 }}
+client.unfocused {{ colors.dark }} {{ colors.dark }} {{ colors.bright }} {{ colors.bright }}
 
 
 ### Key bindings

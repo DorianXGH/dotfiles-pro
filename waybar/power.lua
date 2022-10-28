@@ -1,6 +1,6 @@
 #!/usr/bin/lua
 local options = {
-    [" Lock"] = "swaylock -i /home/dorian/Backgrounds/owl_redder.png --indicator-radius 5 --ring-color 000000 --key-hl-color 8e242e",
+    [" Lock"] = "swaylock -i /home/dorian/Backgrounds/owl_redder_nighter.png --indicator-radius 5 --ring-color 1c050d --key-hl-color 8e242e",
     [" Shut down"] = "systemctl poweroff",
     [" Reboot"] = "systemctl reboot",
     [" Log out"] = "swaymsg exit",

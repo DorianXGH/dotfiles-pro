@@ -11,7 +11,7 @@
 	},
 	"cpu": {
 		"tooltip": false,
-		"format": " {}%"
+		"format": " {usage}%"
 	},
 	"memory": {
 		"tooltip": false,
