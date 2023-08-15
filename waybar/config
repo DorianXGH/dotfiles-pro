@@ -3,7 +3,7 @@
 	"modules-left": ["sway/workspaces", "sway/mode"],
 	"modules-center": ["wlr/taskbar"],
 	"modules-right": ["network", "cpu", "memory", "battery", "clock","custom/powermgr"],
-
+	"sway/workspaces": { "warp-on-scroll": true },
 	"network": {
 		"tooltip": false,
 		"format-wifi": " {essid} {ipaddr}",
